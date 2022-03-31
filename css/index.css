@@ -4,7 +4,7 @@ body {
   margin: 0px;
 }
 body {
-  --background-primary: #fff;
+  --background-primary: transparent;
   --font-color-primary: #333;
   --elevation-background: #f3f3f3;
   --link-color: #006eb8;
