@@ -4,18 +4,35 @@ body {
   margin: 0px;
 }
 body {
+  --background-primary: #fff;
+  --font-color-primary: #333;
+  --elevation-background: #f3f3f3;
+  --link-color: #006eb8;
   --font-family-primary: 'Roboto', Arial;
   --handwriting-font: 'Homemade Apple', cursive;
+  --primary-color: #1a73e8;
   --ink-color: #000f55;
   --label-color: #333;
+  --field-borders: #e0e0e0;
   --primary-button-bg: #1d1d1d;
   --primary-button-color: #eee;
   --font-color-delete: #dc3545;
+  --delete-button-borders: #dc3545;
 
   width: 100%;
   overflow-x: hidden;
 }
 body.dark {
+  --background-primary: #121212;
+  --font-color-primary: #ccc;
+  --elevation-background: #1d1d1d;
+  --link-color: #09f;
+  --label-color: #aaa;
+  --field-borders: #222;
+  --primary-button-bg: #eee;
+  --primary-button-color: #111;
+  --delete-button-borders: #e76f7b;
+  --font-color-delete: #e76f7b;
 }
 @font-face {
   font-family: 'Hindi_Font';
@@ -27,18 +44,23 @@ body.dark {
   box-sizing: border-box;
 }
 body {
+  background-color: var(--background-primary);
+  color: var(--font-color-primary);
   padding: 100px 100px;
   font-size: 1.05rem;
   font-family: var(--font-family-primary);
 }
 a {
   text-decoration: none;
+  color: var(--link-color);
 }
 section {
   padding: 20px 0px;
 }
 button {
   border: none;
+  background-color: var(--elevation-background);
+  color: var(--font-color-primary);
   border-radius: 6px;
   cursor: pointer;
   padding: 10px 20px;
@@ -62,6 +84,7 @@ select {
   background: url('../images/dropdown.svg') no-repeat;
   background-position: calc(100% - 14px) center;
   border: none;
+  color: #333;
   border-radius: 4px;
   font-size: 0.9rem;
   display: block;
@@ -81,6 +104,9 @@ body.dark select {
 input {
   padding: 8px 13px;
   border-radius: 4px;
+  border: 1px solid var(--elevation-background);
+  color: var(--font-color-primary);
+  background-color: transparent;
   display: block;
 }
 input[type='number']::-webkit-outer-spin-button,
@@ -123,7 +149,7 @@ ul.info-ul > li {
   padding-left: 30px;
 }
 .padding-up-down {
-  padding-top: 1px;
+  padding-top: 6px;
   padding-bottom: 7px;
 }
 
@@ -144,6 +170,7 @@ ul.info-ul > li {
   right: 0px;
 }
 body.dark .github-corner {
+  filter: invert(100%);
 }
 .imp-button {
   color: var(--font-color-primary);
@@ -386,6 +413,7 @@ input[type='file']::-webkit-file-upload-button {
 input[type='file']::before {
   content: 'Choose File';
   display: inline-block;
+  background-color: var(--background-primary);
   white-space: nowrap;
   -webkit-user-select: none;
   cursor: pointer;
