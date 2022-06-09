@@ -4,12 +4,10 @@ body {
   margin: 0px;
 }
 body {
-  --font-color-primary: #333;
   --elevation-background: #f3f3f3;
   --link-color: #006eb8;
   --font-family-primary: 'Roboto', Arial;
   --handwriting-font: 'Homemade Apple', cursive;
-  --primary-color: #1a73e8;
   --ink-color: #000f55;
   --label-color: #333;
   --field-borders: #e0e0e0;
@@ -22,15 +20,6 @@ body {
   overflow-x: hidden;
 }
 body.dark {
-  --font-color-primary: #ccc;
-  --elevation-background: #1d1d1d;
-  --link-color: #09f;
-  --label-color: #aaa;
-  --field-borders: #222;
-  --primary-button-bg: #eee;
-  --primary-button-color: #111;
-  --delete-button-borders: #e76f7b;
-  --font-color-delete: #e76f7b;
 }
 @font-face {
   font-family: 'Hindi_Font';
