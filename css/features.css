@@ -5,6 +5,7 @@
   top: 100px;
   right: 150px;
   border: none;
+  background: transparent;
 }
 body:not(.user-is-tabbing) .dark-mode-toggle:focus {
   outline: none;
@@ -37,6 +38,7 @@ body.dark .dark-mode-toggle .sun {
   width: 50px;
   height: 25px;
   border-radius: 25px;
+  background-color: var(--elevation-background);
 }
 
 .switch-toggle input {
