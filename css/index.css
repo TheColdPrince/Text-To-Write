@@ -11,7 +11,6 @@ body {
   --primary-button-bg: #1d1d1d;
   --primary-button-color: #eee;
   --font-color-delete: #dc3545;
-  --delete-button-borders: #dc3545;
 
   width: 100%;
   overflow-x: hidden;
@@ -28,14 +27,12 @@ body.dark {
   box-sizing: border-box;
 }
 body {
-  color: var(--font-color-primary);
   padding: 100px 100px;
   font-size: 1.05rem;
   font-family: var(--font-family-primary);
 }
 a {
   text-decoration: none;
-  color: var(--link-color);
 }
 section {
   padding: 20px 0px;
