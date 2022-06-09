@@ -4,7 +4,7 @@ body {
   margin: 0px;
 }
 body {
-  --background-primary: #fff;
+  --background-primary: transparent;
   --font-color-primary: #333;
   --elevation-background: #f3f3f3;
   --link-color: #006eb8;
@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
 }
 body.dark {
-  --background-primary: #121212;
+  --background-primary: #1e1e1e;
   --font-color-primary: #ccc;
   --elevation-background: #1d1d1d;
   --link-color: #09f;
