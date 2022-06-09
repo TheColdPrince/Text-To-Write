@@ -4,13 +4,10 @@ body {
   margin: 0px;
 }
 body {
-  --elevation-background: #f3f3f3;
-  --link-color: #006eb8;
   --font-family-primary: 'Roboto', Arial;
   --handwriting-font: 'Homemade Apple', cursive;
   --ink-color: #000f55;
   --label-color: #333;
-  --field-borders: #e0e0e0;
   --primary-button-bg: #1d1d1d;
   --primary-button-color: #eee;
   --font-color-delete: #dc3545;
@@ -45,8 +42,6 @@ section {
 }
 button {
   border: none;
-  background-color: var(--elevation-background);
-  color: var(--font-color-primary);
   border-radius: 6px;
   cursor: pointer;
   padding: 10px 20px;
@@ -70,7 +65,6 @@ select {
   background: url('../images/dropdown.svg') no-repeat;
   background-position: calc(100% - 14px) center;
   border: none;
-  color: #333;
   border-radius: 4px;
   font-size: 0.9rem;
   display: block;
@@ -90,8 +84,6 @@ body.dark select {
 input {
   padding: 8px 13px;
   border-radius: 4px;
-  border: 1px solid var(--elevation-background);
-  color: var(--font-color-primary);
   display: block;
 }
 input[type='number']::-webkit-outer-spin-button,
@@ -155,7 +147,6 @@ ul.info-ul > li {
   right: 0px;
 }
 body.dark .github-corner {
-  filter: invert(100%);
 }
 .imp-button {
   color: var(--font-color-primary);
