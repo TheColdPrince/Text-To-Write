@@ -4,7 +4,6 @@ body {
   margin: 0px;
 }
 body {
-  --background-primary: transparent;
   --font-color-primary: #333;
   --elevation-background: #f3f3f3;
   --link-color: #006eb8;
@@ -23,7 +22,6 @@ body {
   overflow-x: hidden;
 }
 body.dark {
-  --background-primary: #121212;
   --font-color-primary: #ccc;
   --elevation-background: #1d1d1d;
   --link-color: #09f;
@@ -44,7 +42,6 @@ body.dark {
   box-sizing: border-box;
 }
 body {
-  background-color: var(--background-primary);
   color: var(--font-color-primary);
   padding: 100px 100px;
   font-size: 1.05rem;
@@ -106,7 +103,6 @@ input {
   border-radius: 4px;
   border: 1px solid var(--elevation-background);
   color: var(--font-color-primary);
-  background-color: transparent;
   display: block;
 }
 input[type='number']::-webkit-outer-spin-button,
@@ -413,7 +409,6 @@ input[type='file']::-webkit-file-upload-button {
 input[type='file']::before {
   content: 'Choose File';
   display: inline-block;
-  background-color: var(--background-primary);
   white-space: nowrap;
   -webkit-user-select: none;
   cursor: pointer;
